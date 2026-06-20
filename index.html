@@ -41,6 +41,44 @@
   [data-reveal].is-in { opacity:1; transform:none; }
   @media (hover:none){ .btn3d:hover{ transform:none; } }
   @media (prefers-reduced-motion:reduce){ *{animation:none!important} [data-reveal]{opacity:1!important;transform:none!important} }
+
+  /* ===== АДАПТИВ: планшет ===== */
+  @media (max-width:1024px){
+    [style*="grid-template-columns:repeat(4,1fr)"],
+    [style*="grid-template-columns: repeat(4, 1fr)"]{ grid-template-columns:1fr 1fr !important; }
+  }
+  /* ===== АДАПТИВ: телефон ===== */
+  @media (max-width:760px){
+    nav{ padding:13px 18px !important; }
+    nav .lnk{ display:none !important; }
+    nav a.btn3d{ height:40px !important; padding:0 16px !important; font-size:13px !important; }
+    nav [style*="font-size:22px"], nav [style*="font-size: 22px"]{ font-size:18px !important; }
+
+    h1{ font-size:36px !important; }
+    h2{ font-size:28px !important; }
+
+    /* hero -> вертикально */
+    .r-hero{ flex-direction:column !important; padding:36px 20px 40px !important; gap:28px !important; align-items:stretch !important; }
+    .r-side{ width:100% !important; }
+    .r-stack{ flex-direction:column !important; }
+    [style*="min-height:640px"], [style*="min-height: 640px"]{ min-height:auto !important; }
+    [style*="min-width:300px"], [style*="min-width: 300px"]{ min-width:0 !important; }
+    [style*="min-width:340px"], [style*="min-width: 340px"]{ min-width:0 !important; }
+
+    /* сетки -> одна колонка */
+    [style*="grid-template-columns:repeat(3,1fr)"],
+    [style*="grid-template-columns: repeat(3, 1fr)"],
+    [style*="grid-template-columns:1fr 1fr"],
+    [style*="grid-template-columns: 1fr 1fr"]{ grid-template-columns:1fr !important; }
+
+    /* боковые отступы секций -> 20px по бокам */
+    [style*="padding:6px 40px"], [style*="padding: 6px 40px"],
+    [style*="padding:48px 40px 56px"], [style*="padding: 48px 40px 56px"],
+    [style*="padding:60px 40px"], [style*="padding: 60px 40px"],
+    [style*="padding:56px 40px"], [style*="padding: 56px 40px"],
+    [style*="padding:20px 40px 64px"], [style*="padding: 20px 40px 64px"],
+    [style*="padding:36px 40px"], [style*="padding: 36px 40px"]{ padding-left:20px !important; padding-right:20px !important; }
+  }
 </style>
 </helmet>
 
@@ -72,7 +110,7 @@
       </video>
       <div style="position:absolute; inset:0; background:linear-gradient(100deg, #05091a 18%, rgba(5,9,26,.78) 46%, rgba(5,9,26,.35) 70%, rgba(12,43,59,.25) 100%);"></div>
       <div style="position:absolute; inset:0; background:linear-gradient(115deg, transparent 38%, rgba(31,214,255,.12) 48%, rgba(125,108,240,.1) 52%, transparent 62%); background-size:240% 100%; animation:heroSweep 8s ease-in-out infinite; mix-blend-mode:screen; pointer-events:none;"></div>
-      <div style="position:relative; max-width:1180px; width:100%; margin:0 auto; padding:70px 40px; display:flex; align-items:center; gap:40px;">
+      <div class="r-hero" style="position:relative; max-width:1180px; width:100%; margin:0 auto; padding:70px 40px; display:flex; align-items:center; gap:40px;">
         <div style="flex:1; max-width:660px;">
           <div style="font-family:'IBM Plex Mono',monospace; font-size:13px; letter-spacing:.18em; color:#1fd6ff;">// ЗАКРЫТАЯ БАЗА ЗНАНИЙ ПО ФАРМЕ И БИОХАКИНГУ</div>
           <h1 style="font-family:'Oswald',sans-serif; font-weight:700; font-size:64px; line-height:1.02; margin:16px 0 0; color:#e8f1ff; text-transform:uppercase; letter-spacing:.005em;">База знаний, которой <span style="color:#84e8f9; text-shadow:0 0 24px rgba(31,214,255,.7);">не хватало</span></h1>
@@ -86,7 +124,7 @@
             <span style="font-family:'IBM Plex Mono',monospace; font-size:13px; color:#9fb0cc;">Контент проходит врачебную редактуру</span>
           </div>
         </div>
-        <div style="flex:none; width:300px; display:flex; flex-direction:column; align-items:center; gap:24px;">
+        <div class="r-side" style="flex:none; width:300px; display:flex; flex-direction:column; align-items:center; gap:24px;">
           <div style="width:120px; height:120px; animation:naPulse 3.6s ease-in-out infinite;">
             <div style="width:100%; height:100%; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:linear-gradient(135deg,#7d6cf0,#1fd6ff); display:flex; align-items:center; justify-content:center;">
               <div style="width:102px; height:102px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:radial-gradient(circle at 50% 38%, #0d3147, #061626); display:flex; align-items:center; justify-content:center; font-family:'IBM Plex Mono',monospace; font-weight:700; font-size:36px; color:#1fd6ff; text-shadow:0 0 14px rgba(31,214,255,.9);">Na</div>
@@ -189,7 +227,7 @@
       <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:16px;">
         <div style="padding:26px; border:1px solid #1a2e49; border-radius:16px; background:#0a1430;"><div style="width:52px; height:58px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:linear-gradient(135deg,#1fd6ff,#7d6cf0); display:flex; align-items:center; justify-content:center; font-family:'Oswald',sans-serif; font-weight:700; font-size:24px; color:#031018;">1</div><div style="font-weight:600; font-size:18px; color:#e8f1ff; margin-top:18px;">Открой бот</div><div style="font-size:14.5px; color:#9fb0cc; margin-top:6px; line-height:1.5;">Один тап — и ты внутри @Benzoate_bot.</div></div>
         <div style="padding:26px; border:1px solid #1a2e49; border-radius:16px; background:#0a1430;"><div style="width:52px; height:58px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:linear-gradient(135deg,#7d6cf0,#19acb1); display:flex; align-items:center; justify-content:center; font-family:'Oswald',sans-serif; font-weight:700; font-size:24px; color:#fff;">2</div><div style="font-weight:600; font-size:18px; color:#e8f1ff; margin-top:18px;">Выбери тему или поиск</div><div style="font-size:14.5px; color:#9fb0cc; margin-top:6px; line-height:1.5;">Навигация по разделам или быстрый поиск по базе.</div></div>
-        <div style="padding:26px; border:1px solid #1a2e49; border-radius:16px; background:#0a1430;"><div style="width:52px; height:58px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:linear-gradient(135deg,#19acb1,#1fd6ff); display:flex; align-items:center; justify-content:center; font-family:'Oswald',sans-serif; font-weight:700; font-size:24px; color:#031018;">3</div><div style="font-weight:600; font-size:18px; color:#e8f1ff; margin-top:18px;">Получи готовую выжимку</div><div style="font-size:14.5px; color:#9fb0cc; margin-top:6px; line-height:1.5;">Структурно, по делу, проверено спеуиалистом.</div></div>
+        <div style="padding:26px; border:1px solid #1a2e49; border-radius:16px; background:#0a1430;"><div style="width:52px; height:58px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:linear-gradient(135deg,#19acb1,#1fd6ff); display:flex; align-items:center; justify-content:center; font-family:'Oswald',sans-serif; font-weight:700; font-size:24px; color:#031018;">3</div><div style="font-weight:600; font-size:18px; color:#e8f1ff; margin-top:18px;">Получи готовую выжимку</div><div style="font-size:14.5px; color:#9fb0cc; margin-top:6px; line-height:1.5;">Структурно, по делу, проверено специалистом.</div></div>
       </div>
     </section>
 
@@ -246,7 +284,7 @@
           <p style="font-size:15px; line-height:1.55; color:#9fb0cc; margin:12px 0 0;">Закрытый чат сообщества. Доступен с подпиской — обсуждения по делу, без broscience и токсичности.</p>
           <a class="lnk" href="https://t.me/Benzoate_bot?start=subscribe" style="display:inline-block; margin-top:18px; font-family:'IBM Plex Mono',monospace; font-size:13px; color:#1fd6ff; text-decoration:none; border-bottom:1px solid rgba(31,214,255,.4);">Войти с подпиской →</a>
         </div>
-        <div style="display:flex; gap:18px; border:1px solid rgba(125,108,240,.22); border-radius:18px; padding:24px; background:#0a1430;">
+        <div class="r-stack" style="display:flex; gap:18px; border:1px solid rgba(125,108,240,.22); border-radius:18px; padding:24px; background:#0a1430;">
           <img src="assets/hero-square.jpg" alt="Врач-специалист проекта" style="width:96px; height:96px; flex:none; object-fit:cover; border-radius:14px; border:1px solid rgba(125,108,240,.3);">
           <div>
             <div style="font-family:'Oswald',sans-serif; font-weight:600; font-size:21px; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">Персональные консультации</div>
