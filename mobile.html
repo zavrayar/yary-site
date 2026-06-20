@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<template id="__bundler_thumbnail" data-bg-color="#05091a">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#05091a"/>
+    <g transform="translate(600 400)">
+      <polygon points="-150,-86.6 0,-173.2 150,-86.6 150,86.6 0,173.2 -150,86.6" fill="none" stroke="#7d6cf0" stroke-width="14"/>
+      <polygon points="-120,-69.3 0,-138.6 120,-69.3 120,69.3 0,138.6 -120,69.3" fill="#0a1430" stroke="#1fd6ff" stroke-width="8"/>
+      <text x="0" y="34" text-anchor="middle" font-family="Oswald, sans-serif" font-weight="700" font-size="110" fill="#1fd6ff">Na</text>
+    </g>
+    <text x="600" y="650" text-anchor="middle" font-family="Oswald, sans-serif" font-weight="700" font-size="64" letter-spacing="4" fill="#e8f1ff">ЯРЫЙ БИОХАКИНГ</text>
+  </svg>
+</template>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background:#02040d; -webkit-font-smoothing:antialiased; }
+  summary::-webkit-details-marker { display:none; }
+  details > summary { list-style:none; cursor:pointer; }
+  details[open] summary .arrow { transform:rotate(45deg); }
+  @keyframes naPulse {
+    0%,100% { filter:drop-shadow(0 0 9px rgba(31,214,255,.6)) drop-shadow(0 0 20px rgba(125,108,240,.4)); }
+    50% { filter:drop-shadow(0 0 16px rgba(31,214,255,.9)) drop-shadow(0 0 32px rgba(125,108,240,.65)); }
+  }
+  @keyframes bloom { 0%,100%{opacity:.55} 50%{opacity:.9} }
+  @keyframes heroSweep { 0%{background-position:130% 0} 100%{background-position:-30% 0} }
+  @keyframes ecg { from{stroke-dashoffset:480} to{stroke-dashoffset:0} }
+  @keyframes btnSheen { 0%{transform:translateX(-170%) skewX(-20deg)} 55%,100%{transform:translateX(290%) skewX(-20deg)} }
+  @keyframes btnGlow { 0%,100%{filter:drop-shadow(0 0 9px rgba(31,214,255,.4))} 50%{filter:drop-shadow(0 0 20px rgba(31,214,255,.8))} }
+  @keyframes btnGlowV { 0%,100%{filter:drop-shadow(0 0 9px rgba(125,108,240,.45))} 50%{filter:drop-shadow(0 0 20px rgba(125,108,240,.8))} }
+  .btn3d { position:relative; overflow:hidden; transition:transform .18s cubic-bezier(.2,.7,.2,1), box-shadow .18s ease; will-change:transform; }
+  .btn3d::after { content:''; position:absolute; top:0; left:-10%; height:100%; width:42%; background:linear-gradient(90deg,transparent,rgba(255,255,255,.55),transparent); transform:translateX(-170%) skewX(-20deg); animation:btnSheen 5s ease-in-out infinite; pointer-events:none; }
+  .btn3d.glow { animation:btnGlow 3.2s ease-in-out infinite; }
+  .btn3d.glowV { animation:btnGlowV 3.2s ease-in-out infinite; }
+  .btn3d:hover { transform:translateY(-2px) scale(1.012); }
+  .btn3d:active { transform:translateY(0) scale(.99); }
+  [data-reveal] { opacity:0; transform:translateY(28px); transition:opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1); }
+  [data-reveal].is-in { opacity:1; transform:none; }
+  @media (hover:none){ .btn3d:hover{ transform:none; } }
+  @media (prefers-reduced-motion:reduce){ *{animation:none!important} [data-reveal]{opacity:1!important;transform:none!important} }
+</style>
+</helmet>
+
+<div style="position:relative; min-height:100vh; background:#05091a; overflow:hidden; font-family:'IBM Plex Sans',sans-serif;">
+  <!-- ambient blooms -->
+  <div style="position:fixed; top:-120px; left:50%; transform:translateX(-380px); width:420px; height:420px; border-radius:50%; background:radial-gradient(circle, rgba(31,214,255,.16), transparent 70%); filter:blur(20px); animation:bloom 9s ease-in-out infinite; pointer-events:none;"></div>
+  <div style="position:fixed; bottom:-100px; left:50%; transform:translateX(220px); width:420px; height:420px; border-radius:50%; background:radial-gradient(circle, rgba(125,108,240,.16), transparent 70%); filter:blur(20px); animation:bloom 11s ease-in-out infinite; pointer-events:none;"></div>
+  <div data-cursor-light="" style="position:fixed; left:50%; top:28%; width:340px; height:340px; border-radius:50%; background:radial-gradient(circle, rgba(31,214,255,.16), rgba(125,108,240,.08) 45%, transparent 68%); filter:blur(12px); transform:translate(-50%,-50%); pointer-events:none; opacity:0; transition:opacity .5s ease; z-index:1; mix-blend-mode:screen;"></div>
+
+  <!-- ============ MOBILE-FIRST COLUMN ============ -->
+  <main style="position:relative; max-width:460px; margin:0 auto; background:#05091a; min-height:100vh; padding-bottom:96px; box-shadow:0 0 0 1px rgba(31,214,255,.1), 0 0 90px -10px rgba(31,214,255,.18), 0 0 90px -10px rgba(125,108,240,.18);">
+
+    <!-- ===== 1. HERO ===== -->
+    <section style="position:relative;">
+      <div style="position:relative; height:308px; background:#0c2b3b;">
+        <video autoplay="" muted="" loop="" playsinline="" poster="assets/hero-lab.jpg" style="width:100%; height:100%; object-fit:cover; display:block; filter:brightness(.7) saturate(1.12);">
+          <source src="assets/hero.mp4" type="video/mp4">
+        </video>
+        <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(5,9,26,.5) 0%, rgba(5,9,26,.2) 38%, #05091a 100%);"></div>
+        <div style="position:absolute; inset:0; background:linear-gradient(115deg, transparent 34%, rgba(31,214,255,.16) 47%, rgba(125,108,240,.14) 53%, transparent 66%); background-size:240% 100%; animation:heroSweep 7s ease-in-out infinite; mix-blend-mode:screen; pointer-events:none;"></div>
+        <div style="position:absolute; top:16px; left:18px; right:18px; display:flex; align-items:flex-start; justify-content:space-between;">
+          <div style="font-family:'Oswald',sans-serif; font-weight:700; font-size:21px; letter-spacing:.04em; line-height:1; text-transform:uppercase;"><span style="color:#1fd6ff; text-shadow:0 0 14px rgba(31,214,255,.8);">ЯРЫЙ</span> <span style="color:#9d8cff; text-shadow:0 0 14px rgba(125,108,240,.8);">БИОХАКИНГ</span></div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; color:#a99bff; border:1.5px solid rgba(125,108,240,.7); border-radius:7px; padding:3px 7px; background:rgba(5,9,26,.4); box-shadow:0 0 12px rgba(125,108,240,.5);">18+</div>
+        </div>
+        <div style="position:absolute; left:50%; bottom:-32px; transform:translateX(-50%); width:68px; height:68px; animation:naPulse 3.4s ease-in-out infinite;">
+          <div style="width:100%; height:100%; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:linear-gradient(135deg,#7d6cf0,#1fd6ff); display:flex; align-items:center; justify-content:center;">
+            <div style="width:57px; height:57px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:radial-gradient(circle at 50% 38%, #0d3147, #061626); display:flex; align-items:center; justify-content:center; font-family:'IBM Plex Mono',monospace; font-weight:700; font-size:20px; color:#1fd6ff; text-shadow:0 0 12px rgba(31,214,255,.9);">Na</div>
+          </div>
+        </div>
+      </div>
+      <div style="padding:46px 22px 28px;">
+        <h1 style="font-family:'Oswald',sans-serif; font-weight:700; font-size:36px; line-height:1.04; margin:0; color:#e8f1ff; text-align:center; text-transform:uppercase; letter-spacing:.005em;">База знаний, которой <span style="color:#84e8f9; text-shadow:0 0 20px rgba(31,214,255,.7);">не хватало</span></h1>
+        <p style="font-size:14.5px; line-height:1.55; color:#9fb0cc; margin:14px 0 0; text-align:center;">Коротко, по делу, с дозировками. Закрытая база выжимок по ААС, гормонам, пептидам, ноотропам, БАДам и тренингу — структурировано и проверено специалистом.</p>
+        <div style="display:flex; gap:8px; margin-top:22px;">
+          <div style="flex:1; text-align:center; border:1px solid rgba(31,214,255,.2); border-radius:12px; padding:12px 4px; background:rgba(31,214,255,.04);"><div style="font-family:'IBM Plex Mono',monospace; font-weight:700; font-size:22px; color:#1fd6ff;">191</div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.05em; color:#7e8eaa; margin-top:3px;">ВЫЖИМКА</div></div>
+          <div style="flex:1; text-align:center; border:1px solid rgba(125,108,240,.2); border-radius:12px; padding:12px 4px; background:rgba(125,108,240,.04);"><div style="font-family:'IBM Plex Mono',monospace; font-weight:700; font-size:22px; color:#9d8cff;">143</div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.05em; color:#7e8eaa; margin-top:3px;">РАЗДЕЛА</div></div>
+          <div style="flex:1; text-align:center; border:1px solid rgba(25,172,177,.28); border-radius:12px; padding:12px 4px; background:rgba(25,172,177,.05);"><div style="font-family:'IBM Plex Mono',monospace; font-weight:700; font-size:22px; color:#3fd2d6;">23</div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.05em; color:#7e8eaa; margin-top:3px;">ТЕМЫ</div></div>
+        </div>
+        <a class="btn3d glow" href="https://t.me/Benzoate_bot?start=subscribe" style="display:flex; align-items:center; justify-content:center; gap:9px; height:56px; margin-top:18px; border-radius:14px; text-decoration:none; font-weight:700; font-size:16.5px; color:#031018; background:linear-gradient(135deg,#1fd6ff,#7d6cf0); box-shadow:0 0 28px rgba(31,214,255,.5), inset 0 1px 0 rgba(255,255,255,.35);">Открыть в Telegram <span style="font-size:18px;">→</span></a>
+        <div style="display:flex; align-items:center; justify-content:center; gap:9px; margin-top:15px;">
+          <span style="display:flex; align-items:center; justify-content:center; width:20px; height:20px; border-radius:50%; background:rgba(31,214,255,.14); color:#1fd6ff; font-size:12px; font-weight:700; flex:none;">✓</span>
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:#8a9bbb;">Контент проходит врачебную редактуру</span>
+        </div>
+      </div>
+      <!-- cardiogram divider -->
+      <div style="padding:0 22px 6px;">
+        <svg viewBox="0 0 480 40" preserveAspectRatio="none" style="width:100%; height:28px; display:block;">
+          <polyline points="0,20 150,20 165,20 174,8 184,32 194,13 204,20 232,20 246,20 255,11 264,20 322,20 340,20 350,5 362,35 374,15 386,20 480,20" fill="none" stroke="#1fd6ff" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="480" style="filter:drop-shadow(0 0 5px rgba(31,214,255,.9)); animation:ecg 3.2s ease-out forwards;"></polyline>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===== 2. ПРОБЛЕМА → РЕШЕНИЕ ===== -->
+    <section style="padding:14px 22px 34px;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.16em; color:#1fd6ff;">// ПРОБЛЕМА</div>
+      <h2 style="font-family:'Oswald',sans-serif; font-weight:600; font-size:25px; line-height:1.12; margin:9px 0 0; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">Разобраться самому — долго и рискованно</h2>
+      <div style="display:flex; flex-direction:column; gap:10px; margin-top:18px;">
+        <div style="display:flex; gap:13px; padding:15px; border:1px solid #1a2e49; border-radius:14px; background:#0a1430;"><span style="font-family:'IBM Plex Mono',monospace; color:#f5a623; font-size:13px; flex:none;">×</span><p style="margin:0; font-size:13.5px; line-height:1.5; color:#b3c0d8;">Форумы противоречат друг другу. Десять веток — десять «единственно верных» схем.</p></div>
+        <div style="display:flex; gap:13px; padding:15px; border:1px solid #1a2e49; border-radius:14px; background:#0a1430;"><span style="font-family:'IBM Plex Mono',monospace; color:#f5a623; font-size:13px; flex:none;">×</span><p style="margin:0; font-size:13.5px; line-height:1.5; color:#b3c0d8;">Broscience и кликбейт повсюду. Громкие заголовки вместо фактов.</p></div>
+        <div style="display:flex; gap:13px; padding:15px; border:1px solid #1a2e49; border-radius:14px; background:#0a1430;"><span style="font-family:'IBM Plex Mono',monospace; color:#f5a623; font-size:13px; flex:none;">×</span><p style="margin:0; font-size:13.5px; line-height:1.5; color:#b3c0d8;">Перепроверять каждую дозировку и взаимодействие самому — это драгоценное время и реальный риск для здоровья.</p></div>
+      </div>
+      <div style="margin-top:16px; padding:18px; border:1px solid rgba(31,214,255,.32); border-radius:16px; background:linear-gradient(135deg, rgba(31,214,255,.09), rgba(125,108,240,.07)); box-shadow:0 0 30px -12px rgba(31,214,255,.5);">
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.16em; color:#1fd6ff;">// РЕШЕНИЕ</div>
+        <p style="margin:8px 0 0; font-family:'Oswald',sans-serif; font-weight:500; font-size:19px; line-height:1.25; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">ОДИН СТРУКТУРИРОВАННЫЙ ИСТОЧНИК. РАЗЛОЖЕНО ПО ТЕМАМ, ПРОВЕРЕНО СПЕЦИАЛИСТОМ.</p>
+      </div>
+    </section>
+
+    <!-- ===== 3. ЧТО ВНУТРИ ===== -->
+    <section style="padding:18px 22px 34px;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.16em; color:#9d8cff;">// ЧТО ВНУТРИ</div>
+      <h2 style="font-family:'Oswald',sans-serif; font-weight:600; font-size:25px; line-height:1.12; margin:9px 0 0; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">23 темы. Вся «прокачка» в одном месте</h2>
+      <p style="font-size:13.5px; line-height:1.5; color:#9fb0cc; margin:10px 0 0;">Канал-первоисточник анализируется и превращается в короткие структурированные выжимки, разложенные по темам и разделам.</p>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:18px;">
+        <div style="display:flex; align-items:center; gap:10px; padding:13px 12px; border:1px solid rgba(31,214,255,.16); border-radius:12px; background:#0a1430;"><span style="width:9px; height:10px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#1fd6ff; flex:none; box-shadow:0 0 8px rgba(31,214,255,.8);"></span><span style="font-size:13px; font-weight:500; color:#d4ddec;">Анаболические стероиды</span></div>
+        <div style="display:flex; align-items:center; gap:10px; padding:13px 12px; border:1px solid rgba(31,214,255,.16); border-radius:12px; background:#0a1430;"><span style="width:9px; height:10px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#7d6cf0; flex:none; box-shadow:0 0 8px rgba(125,108,240,.8);"></span><span style="font-size:13px; font-weight:500; color:#d4ddec;">ГЗТ / ТЗТ</span></div>
+        <div style="display:flex; align-items:center; gap:10px; padding:13px 12px; border:1px solid rgba(31,214,255,.16); border-radius:12px; background:#0a1430;"><span style="width:9px; height:10px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#19acb1; flex:none; box-shadow:0 0 8px rgba(25,172,177,.8);"></span><span style="font-size:13px; font-weight:500; color:#d4ddec;">Пептиды и гормон роста</span></div>
+        <div style="display:flex; align-items:center; gap:10px; padding:13px 12px; border:1px solid rgba(31,214,255,.16); border-radius:12px; background:#0a1430;"><span style="width:9px; height:10px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#1fd6ff; flex:none; box-shadow:0 0 8px rgba(31,214,255,.8);"></span><span style="font-size:13px; font-weight:500; color:#d4ddec;">САРМы</span></div>
+        <div style="display:flex; align-items:center; gap:10px; padding:13px 12px; border:1px solid rgba(31,214,255,.16); border-radius:12px; background:#0a1430;"><span style="width:9px; height:10px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#7d6cf0; flex:none; box-shadow:0 0 8px rgba(125,108,240,.8);"></span><span style="font-size:13px; font-weight:500; color:#d4ddec;">Стимуляторы</span></div>
+        <div style="display:flex; align-items:center; gap:10px; padding:13px 12px; border:1px solid rgba(31,214,255,.16); border-radius:12px; background:#0a1430;"><span style="width:9px; height:10px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#19acb1; flex:none; box-shadow:0 0 8px rgba(25,172,177,.8);"></span><span style="font-size:13px; font-weight:500; color:#d4ddec;">Ноотропы и психофарма</span></div>
+        <div style="display:flex; align-items:center; gap:10px; padding:13px 12px; border:1px solid rgba(31,214,255,.16); border-radius:12px; background:#0a1430;"><span style="width:9px; height:10px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#1fd6ff; flex:none; box-shadow:0 0 8px rgba(31,214,255,.8);"></span><span style="font-size:13px; font-weight:500; color:#d4ddec;">Сон</span></div>
+        <div style="display:flex; align-items:center; gap:10px; padding:13px 12px; border:1px solid rgba(31,214,255,.16); border-radius:12px; background:#0a1430;"><span style="width:9px; height:10px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#7d6cf0; flex:none; box-shadow:0 0 8px rgba(125,108,240,.8);"></span><span style="font-size:13px; font-weight:500; color:#d4ddec;">Сердце и сосуды</span></div>
+        <div style="display:flex; align-items:center; gap:10px; padding:13px 12px; border:1px solid rgba(31,214,255,.16); border-radius:12px; background:#0a1430;"><span style="width:9px; height:10px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#19acb1; flex:none; box-shadow:0 0 8px rgba(25,172,177,.8);"></span><span style="font-size:13px; font-weight:500; color:#d4ddec;">Адаптогены</span></div>
+        <div style="display:flex; align-items:center; gap:10px; padding:13px 12px; border:1px solid rgba(31,214,255,.16); border-radius:12px; background:#0a1430;"><span style="width:9px; height:10px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#1fd6ff; flex:none; box-shadow:0 0 8px rgba(31,214,255,.8);"></span><span style="font-size:13px; font-weight:500; color:#d4ddec;">БАДы, витамины, минералы</span></div>
+        <div style="display:flex; align-items:center; gap:10px; padding:13px 12px; border:1px solid rgba(31,214,255,.16); border-radius:12px; background:#0a1430;"><span style="width:9px; height:10px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#7d6cf0; flex:none; box-shadow:0 0 8px rgba(125,108,240,.8);"></span><span style="font-size:13px; font-weight:500; color:#d4ddec;">Питание и диеты</span></div>
+        <div style="display:flex; align-items:center; gap:10px; padding:13px 12px; border:1px solid rgba(31,214,255,.16); border-radius:12px; background:#0a1430;"><span style="width:9px; height:10px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#19acb1; flex:none; box-shadow:0 0 8px rgba(25,172,177,.8);"></span><span style="font-size:13px; font-weight:500; color:#d4ddec;">Тренинг</span></div>
+        <div style="grid-column:1 / -1; display:flex; align-items:center; gap:10px; padding:13px 12px; border:1px solid rgba(125,108,240,.3); border-radius:12px; background:linear-gradient(135deg, rgba(125,108,240,.08), rgba(31,214,255,.05));"><span style="width:9px; height:10px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#7d6cf0; flex:none; box-shadow:0 0 8px rgba(125,108,240,.8);"></span><span style="font-size:13px; font-weight:600; color:#e8f1ff;">ГЛП-1 — Семаглутид / Тирзепатид</span><span style="margin-left:auto; font-family:'IBM Plex Mono',monospace; font-size:9.5px; color:#9d8cff;">+ ещё 11 тем</span></div>
+      </div>
+    </section>
+
+    <!-- ===== 4. ФОРМАТ ВЫЖИМКИ (teal alt bg) ===== -->
+    <section style="padding:30px 22px 36px; background:#0c2b3b; border-top:1px solid #15384a; border-bottom:1px solid #15384a;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.16em; color:#3fd2d6;">// ФОРМАТ</div>
+      <h2 style="font-family:'Oswald',sans-serif; font-weight:600; font-size:25px; line-height:1.12; margin:9px 0 0; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">Одна выжимка — 6–15 строк по делу</h2>
+      <p style="font-size:13.5px; line-height:1.5; color:#a6c2cf; margin:10px 0 16px;">Без воды: конкретная схема, дозировки, мониторинг, рынок и прямая оценка. Никакого морализаторства — только то, что нужно, чтобы принять решение осознанно.</p>
+      <div style="border:1px solid rgba(31,214,255,.22); border-radius:16px; background:#071b27; overflow:hidden; box-shadow:0 0 40px -16px rgba(31,214,255,.55);">
+        <div style="display:flex; align-items:center; gap:8px; padding:13px 16px; background:rgba(31,214,255,.07); border-bottom:1px solid rgba(31,214,255,.16);">
+          <span style="width:11px; height:12px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#1fd6ff; box-shadow:0 0 8px rgba(31,214,255,.8);"></span>
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:700; color:#e8f1ff; letter-spacing:.02em;">ВЫЖИМКА · ПРИМЕР</span>
+          <span style="margin-left:auto; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#7e9aa8;">тема: пептиды</span>
+        </div>
+        <div style="padding:16px;">
+          <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:14px;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#1fd6ff; border:1px solid rgba(31,214,255,.32); border-radius:6px; padding:3px 7px;">схема</span>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#9d8cff; border:1px solid rgba(125,108,240,.32); border-radius:6px; padding:3px 7px;">мониторинг</span>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#3fd2d6; border:1px solid rgba(25,172,177,.36); border-radius:6px; padding:3px 7px;">оценка</span>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:11px;">
+            <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.05em; color:#7e9aa8; margin-bottom:5px;">ДОЗИРОВКА</div><div style="display:flex; align-items:center; gap:7px;"><span style="display:inline-block; width:62px; height:12px; border-radius:4px; background:rgba(31,214,255,.24);"></span><span style="font-size:13px; color:#a6c2cf;">мкг ×</span><span style="display:inline-block; width:30px; height:12px; border-radius:4px; background:rgba(31,214,255,.24);"></span><span style="font-size:13px; color:#a6c2cf;">/ сут</span></div></div>
+            <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.05em; color:#7e9aa8; margin-bottom:5px;">МОНИТОРИНГ</div><div style="display:flex; align-items:center; gap:7px; flex-wrap:wrap;"><span style="display:inline-block; width:90px; height:12px; border-radius:4px; background:rgba(125,108,240,.22);"></span><span style="display:inline-block; width:54px; height:12px; border-radius:4px; background:rgba(125,108,240,.22);"></span><span style="display:inline-block; width:70px; height:12px; border-radius:4px; background:rgba(125,108,240,.22);"></span></div></div>
+            <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.05em; color:#7e9aa8; margin-bottom:5px;">ОЦЕНКА</div><div style="display:flex; flex-direction:column; gap:5px;"><span style="display:inline-block; width:100%; height:12px; border-radius:4px; background:rgba(255,255,255,.08);"></span><span style="display:inline-block; width:78%; height:12px; border-radius:4px; background:rgba(255,255,255,.08);"></span></div></div>
+          </div>
+          <div style="margin-top:16px; display:flex; align-items:center; justify-content:center; gap:8px; padding:11px; border:1px dashed rgba(31,214,255,.38); border-radius:10px; background:rgba(31,214,255,.05);">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#1fd6ff;">[ полный текст — по подписке ]</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 5. КАК ЭТО РАБОТАЕТ ===== -->
+    <section style="padding:22px 22px 30px;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.16em; color:#9d8cff;">// КАК ЭТО РАБОТАЕТ</div>
+      <h2 style="font-family:'Oswald',sans-serif; font-weight:600; font-size:25px; line-height:1.12; margin:9px 0 16px; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">Три шага до выжимки</h2>
+      <div style="display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:14px; padding:16px; border:1px solid #1a2e49; border-radius:14px; background:#0a1430;"><div style="width:40px; height:44px; flex:none; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:linear-gradient(135deg,#1fd6ff,#7d6cf0); display:flex; align-items:center; justify-content:center; font-family:'Oswald',sans-serif; font-weight:700; font-size:18px; color:#031018;">1</div><div><div style="font-weight:600; font-size:15px; color:#e8f1ff;">Открой бот</div><div style="font-size:13px; color:#9fb0cc;">Один тап — и ты внутри @Benzoate_bot</div></div></div>
+        <div style="display:flex; align-items:center; gap:14px; padding:16px; border:1px solid #1a2e49; border-radius:14px; background:#0a1430;"><div style="width:40px; height:44px; flex:none; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:linear-gradient(135deg,#7d6cf0,#19acb1); display:flex; align-items:center; justify-content:center; font-family:'Oswald',sans-serif; font-weight:700; font-size:18px; color:#fff;">2</div><div><div style="font-weight:600; font-size:15px; color:#e8f1ff;">Выбери тему или поиск</div><div style="font-size:13px; color:#9fb0cc;">Навигация по разделам или быстрый поиск</div></div></div>
+        <div style="display:flex; align-items:center; gap:14px; padding:16px; border:1px solid #1a2e49; border-radius:14px; background:#0a1430;"><div style="width:40px; height:44px; flex:none; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:linear-gradient(135deg,#19acb1,#1fd6ff); display:flex; align-items:center; justify-content:center; font-family:'Oswald',sans-serif; font-weight:700; font-size:18px; color:#031018;">3</div><div><div style="font-weight:600; font-size:15px; color:#e8f1ff;">Получи готовую выжимку</div><div style="font-size:13px; color:#9fb0cc;">Структурно, по делу, проверено специалистом.</div></div></div>
+      </div>
+    </section>
+
+    <!-- ===== 6. ТАРИФЫ ===== -->
+    <section style="padding:18px 22px 34px;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.16em; color:#1fd6ff;">// ТАРИФЫ</div>
+      <h2 style="font-family:'Oswald',sans-serif; font-weight:600; font-size:25px; line-height:1.12; margin:9px 0 18px; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">Выбери уровень доступа</h2>
+      <div style="display:flex; flex-direction:column; gap:12px;">
+        <!-- Базовый -->
+        <div style="border:1px solid #1a2e49; border-radius:16px; padding:20px; background:#0a1430;">
+          <div style="display:flex; align-items:baseline; justify-content:space-between;">
+            <div style="font-family:'Oswald',sans-serif; font-weight:600; font-size:20px; color:#e8f1ff; text-transform:uppercase; letter-spacing:.02em;">Базовый</div>
+            <div style="font-family:'Oswald',sans-serif; font-weight:700; font-size:23px; color:#1fd6ff;">700 ₽<span style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:400; color:#7e8eaa;"> / мес</span></div>
+          </div>
+          <div style="height:1px; background:#1a2e49; margin:14px 0;"></div>
+          <div style="display:flex; flex-direction:column; gap:8px;">
+            <div style="display:flex; gap:9px; align-items:flex-start;"><span style="color:#1fd6ff; font-size:13px; flex:none;">✓</span><span style="font-size:13px; color:#b3c0d8;">Общая образовалка по биохакингу</span></div>
+            <div style="display:flex; gap:9px; align-items:flex-start;"><span style="color:#1fd6ff; font-size:13px; flex:none;">✓</span><span style="font-size:13px; color:#b3c0d8;">ГЛП-1, адаптогены, БАДы</span></div>
+            <div style="display:flex; gap:9px; align-items:flex-start;"><span style="color:#1fd6ff; font-size:13px; flex:none;">✓</span><span style="font-size:13px; color:#b3c0d8;">Тренинг и питание</span></div>
+          </div>
+          <a class="btn3d" href="https://t.me/Benzoate_bot?start=subscribe" style="display:flex; align-items:center; justify-content:center; height:48px; margin-top:18px; border-radius:12px; text-decoration:none; font-weight:600; font-size:15px; color:#bdeeff; border:1px solid rgba(31,214,255,.42); background:rgba(31,214,255,.06);">Подключить Базовый</a>
+        </div>
+        <!-- Полный -->
+        <div style="position:relative; border:1.5px solid rgba(125,108,240,.55); border-radius:16px; padding:20px; background:linear-gradient(160deg, rgba(125,108,240,.12), rgba(31,214,255,.05)); box-shadow:0 0 44px -14px rgba(125,108,240,.7);">
+          <div style="position:absolute; top:-11px; left:20px; font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:700; letter-spacing:.08em; color:#031018; background:linear-gradient(135deg,#7d6cf0,#1fd6ff); padding:4px 10px; border-radius:7px;">РЕКОМЕНДУЕМЫЙ</div>
+          <div style="display:flex; align-items:baseline; justify-content:space-between; margin-top:4px;">
+            <div style="font-family:'Oswald',sans-serif; font-weight:600; font-size:20px; color:#e8f1ff; text-transform:uppercase; letter-spacing:.02em;">Полный</div>
+            <div style="font-family:'Oswald',sans-serif; font-weight:700; font-size:23px; color:#9d8cff;">1890 ₽<span style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:400; color:#7e8eaa;"> / мес</span></div>
+          </div>
+          <div style="height:1px; background:rgba(125,108,240,.25); margin:14px 0;"></div>
+          <div style="display:flex; flex-direction:column; gap:8px;">
+            <div style="display:flex; gap:9px; align-items:flex-start;"><span style="color:#9d8cff; font-size:13px; flex:none;">✓</span><span style="font-size:13px; color:#d4ddec;">Всё из Базового</span></div>
+            <div style="display:flex; gap:9px; align-items:flex-start;"><span style="color:#9d8cff; font-size:13px; flex:none;">✓</span><span style="font-size:13px; color:#d4ddec;">ААС, стимуляторы, половые и тиреоидные гормоны</span></div>
+            <div style="display:flex; gap:9px; align-items:flex-start;"><span style="color:#9d8cff; font-size:13px; flex:none;">✓</span><span style="font-size:13px; color:#d4ddec;">Авторские схемы и экспериментальные препараты</span></div>
+          </div>
+          <a class="btn3d glowV" href="https://t.me/Benzoate_bot?start=subscribe" style="display:flex; align-items:center; justify-content:center; height:50px; margin-top:18px; border-radius:12px; text-decoration:none; font-weight:700; font-size:15px; color:#031018; background:linear-gradient(135deg,#7d6cf0,#1fd6ff); box-shadow:0 0 24px rgba(125,108,240,.5);">Подключить Полный</a>
+        </div>
+      </div>
+      <div style="display:flex; align-items:center; justify-content:center; gap:8px; flex-wrap:wrap; margin-top:16px;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#bdeeff; border:1px solid #1a2e49; border-radius:8px; padding:5px 9px;">★ Telegram Stars</span>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#bdeeff; border:1px solid #1a2e49; border-radius:8px; padding:5px 9px;">Криптовалюта</span>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#bdeeff; border:1px solid #1a2e49; border-radius:8px; padding:5px 9px;">СБП</span>
+      </div>
+      <p style="text-align:center; font-size:12px; color:#7e8eaa; margin:10px 0 0;">Промокоды дают скидку при оплате через СБП.</p>
+    </section>
+
+    <!-- ===== 7. СООБЩЕСТВО И КОНСУЛЬТАЦИИ ===== -->
+    <section style="padding:18px 22px 34px;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.16em; color:#9d8cff;">// БОЛЬШЕ, ЧЕМ БАЗА</div>
+      <h2 style="font-family:'Oswald',sans-serif; font-weight:600; font-size:25px; line-height:1.12; margin:9px 0 18px; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">Сообщество и консультации</h2>
+      <div style="display:flex; flex-direction:column; gap:12px;">
+        <div style="border:1px solid rgba(31,214,255,.2); border-radius:16px; padding:18px; background:#0a1430;">
+          <div style="font-family:'Oswald',sans-serif; font-weight:600; font-size:17px; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">Последователи Натрия Бензоната</div>
+          <p style="font-size:13px; line-height:1.5; color:#9fb0cc; margin:7px 0 0;">Закрытый чат сообщества. Доступен с подпиской — обсуждения по делу, без broscience и токсичности.</p>
+          <a href="https://t.me/Benzoate_bot?start=subscribe" style="display:inline-block; margin-top:13px; font-family:'IBM Plex Mono',monospace; font-size:12px; color:#1fd6ff; text-decoration:none; border-bottom:1px solid rgba(31,214,255,.4);">Войти с подпиской →</a>
+        </div>
+        <div style="display:flex; gap:14px; border:1px solid rgba(125,108,240,.22); border-radius:16px; padding:16px; background:#0a1430;">
+          <img src="assets/hero-square.jpg" alt="Врач-специалист проекта" style="width:74px; height:74px; flex:none; object-fit:cover; border-radius:12px; border:1px solid rgba(125,108,240,.3);">
+          <div>
+            <div style="font-family:'Oswald',sans-serif; font-weight:600; font-size:17px; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">Персональные консультации</div>
+            <p style="font-size:13px; line-height:1.5; color:#9fb0cc; margin:6px 0 0;">Разбор твоей ситуации один на один с врачом-специалистом.</p>
+            <a href="https://t.me/Benzoate_bot?start=consultation" style="display:inline-block; margin-top:11px; font-family:'IBM Plex Mono',monospace; font-size:12px; color:#9d8cff; text-decoration:none; border-bottom:1px solid rgba(125,108,240,.4);">Записаться →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 8. ДОВЕРИЕ ===== -->
+    <section style="padding:18px 22px 34px;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.16em; color:#1fd6ff;">// ПОЧЕМУ НАМ МОЖНО ВЕРИТЬ</div>
+      <div style="display:flex; flex-direction:column; gap:10px; margin-top:14px;">
+        <div style="display:flex; gap:14px; align-items:flex-start; padding:16px; border:1px solid #1a2e49; border-radius:14px; background:#0a1430;"><span style="width:11px; height:12px; flex:none; margin-top:3px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#1fd6ff; box-shadow:0 0 8px rgba(31,214,255,.8);"></span><div><div style="font-family:'Oswald',sans-serif; font-weight:600; font-size:16px; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">Врачебная редактура</div><div style="font-size:13px; color:#9fb0cc; margin-top:3px;">Проект ведёт специалист рассказавший и проверивший на практике все нюансы взаимодейставия с телом и мозгом</div></div></div>
+        <div style="display:flex; gap:14px; align-items:flex-start; padding:16px; border:1px solid #1a2e49; border-radius:14px; background:#0a1430;"><span style="width:11px; height:12px; flex:none; margin-top:3px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#7d6cf0; box-shadow:0 0 8px rgba(125,108,240,.8);"></span><div><div style="font-family:'Oswald',sans-serif; font-weight:600; font-size:16px; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">Harm-reduction, а не хайп</div><div style="font-size:13px; color:#9fb0cc; margin-top:3px;">Трезвые оценки и риски. Никаких обещаний «результата» от препаратов.</div></div></div>
+        <div style="display:flex; gap:14px; align-items:flex-start; padding:16px; border:1px solid #1a2e49; border-radius:14px; background:#0a1430;"><span style="width:11px; height:12px; flex:none; margin-top:3px; clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%); background:#19acb1; box-shadow:0 0 8px rgba(25,172,177,.8);"></span><div><div style="font-family:'Oswald',sans-serif; font-weight:600; font-size:16px; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">Более 1500 участников</div><div style="font-size:13px; color:#9fb0cc; margin-top:3px;">Растущее сообщество тех, кто разбирается. Без фейковых отзывов и звёздочек.</div></div></div>
+      </div>
+    </section>
+
+    <!-- ===== 9. FAQ ===== -->
+    <section style="padding:18px 22px 34px;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.16em; color:#9d8cff;">// FAQ</div>
+      <h2 style="font-family:'Oswald',sans-serif; font-weight:600; font-size:25px; line-height:1.12; margin:9px 0 18px; color:#e8f1ff; text-transform:uppercase; letter-spacing:.01em;">Частые вопросы</h2>
+      <div style="display:flex; flex-direction:column; gap:9px;">
+        <details style="border:1px solid #1a2e49; border-radius:13px; background:#0a1430; padding:0 16px;">
+          <summary style="display:flex; align-items:center; gap:12px; padding:15px 0; font-weight:600; font-size:14.5px; color:#e8f1ff;"><span class="arrow" style="color:#1fd6ff; font-size:17px; font-weight:400; transition:transform .2s ease; line-height:1; flex:none;">+</span>Это анонимно?</summary>
+          <p style="margin:0 0 15px 29px; font-size:13.5px; line-height:1.55; color:#9fb0cc;">Да. Подписка оформляется прямо в Telegram, никакие документы и личные данные не нужны.</p>
+        </details>
+        <details style="border:1px solid #1a2e49; border-radius:13px; background:#0a1430; padding:0 16px;">
+          <summary style="display:flex; align-items:center; gap:12px; padding:15px 0; font-weight:600; font-size:14.5px; color:#e8f1ff;"><span class="arrow" style="color:#1fd6ff; font-size:17px; font-weight:400; transition:transform .2s ease; line-height:1; flex:none;">+</span>Как оплатить?</summary>
+          <p style="margin:0 0 15px 29px; font-size:13.5px; line-height:1.55; color:#9fb0cc;">Telegram Stars, криптовалюта или СБП. По промокоду — скидка при оплате через СБП.</p>
+        </details>
+        <details style="border:1px solid #1a2e49; border-radius:13px; background:#0a1430; padding:0 16px;">
+          <summary style="display:flex; align-items:center; gap:12px; padding:15px 0; font-weight:600; font-size:14.5px; color:#e8f1ff;"><span class="arrow" style="color:#1fd6ff; font-size:17px; font-weight:400; transition:transform .2s ease; line-height:1; flex:none;">+</span>Доступ открывается сразу?</summary>
+          <p style="margin:0 0 15px 29px; font-size:13.5px; line-height:1.55; color:#9fb0cc;">Да, сразу после оплаты бот открывает выбранный тариф.</p>
+        </details>
+        <details style="border:1px solid #1a2e49; border-radius:13px; background:#0a1430; padding:0 16px;">
+          <summary style="display:flex; align-items:center; gap:12px; padding:15px 0; font-weight:600; font-size:14.5px; color:#e8f1ff;"><span class="arrow" style="color:#1fd6ff; font-size:17px; font-weight:400; transition:transform .2s ease; line-height:1; flex:none;">+</span>Что если контент не подойдёт?</summary>
+          <p style="margin:0 0 15px 29px; font-size:13.5px; line-height:1.55; color:#9fb0cc;">Сначала посмотри бесплатную часть и оглавление базы. Подписку можно не продлевать в любой момент.</p>
+        </details>
+        <details style="border:1px solid #1a2e49; border-radius:13px; background:#0a1430; padding:0 16px;">
+          <summary style="display:flex; align-items:center; gap:12px; padding:15px 0; font-weight:600; font-size:14.5px; color:#e8f1ff;"><span class="arrow" style="color:#1fd6ff; font-size:17px; font-weight:400; transition:transform .2s ease; line-height:1; flex:none;">+</span>База обновляется?</summary>
+          <p style="margin:0 0 15px 29px; font-size:13.5px; line-height:1.55; color:#9fb0cc;">Да. Канал-первоисточник анализируется постоянно, новые выжимки добавляются по темам и разделам.</p>
+        </details>
+        <details style="border:1px solid #1a2e49; border-radius:13px; background:#0a1430; padding:0 16px;">
+          <summary style="display:flex; align-items:center; gap:12px; padding:15px 0; font-weight:600; font-size:14.5px; color:#e8f1ff;"><span class="arrow" style="color:#1fd6ff; font-size:17px; font-weight:400; transition:transform .2s ease; line-height:1; flex:none;">+</span>Для кого это?</summary>
+          <p style="margin:0 0 15px 29px; font-size:13.5px; line-height:1.55; color:#9fb0cc;">Для взрослых (18+), кто уже в теме тренинга и фармы и хочет один проверенный источник без морализаторства.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ===== 10. ФИНАЛЬНЫЙ CTA ===== -->
+    <section style="padding:6px 22px 40px;">
+      <div style="position:relative; border:1px solid rgba(31,214,255,.32); border-radius:22px; padding:32px 24px; text-align:center; background:linear-gradient(160deg, rgba(31,214,255,.1), rgba(125,108,240,.1)); overflow:hidden; box-shadow:0 0 50px -16px rgba(31,214,255,.6);">
+        <div style="position:absolute; top:-60px; left:50%; transform:translateX(-50%); width:200px; height:200px; border-radius:50%; background:radial-gradient(circle, rgba(31,214,255,.3), transparent 70%); filter:blur(10px);"></div>
+        <h2 style="position:relative; font-family:'Oswald',sans-serif; font-weight:700; font-size:30px; line-height:1.08; margin:0; color:#e8f1ff; text-transform:uppercase; letter-spacing:.005em;">Один источник вместо сотни вкладок</h2>
+        <p style="position:relative; font-size:14px; color:#b3c0d8; margin:12px 0 0;">Открой базу и разберись по делу.</p>
+        <a class="btn3d glow" href="https://t.me/Benzoate_bot?start=subscribe" style="position:relative; display:flex; align-items:center; justify-content:center; gap:9px; height:56px; margin-top:22px; border-radius:14px; text-decoration:none; font-weight:700; font-size:16.5px; color:#031018; background:linear-gradient(135deg,#1fd6ff,#7d6cf0); box-shadow:0 0 28px rgba(31,214,255,.6), inset 0 1px 0 rgba(255,255,255,.35);">Открыть в Telegram <span style="font-size:18px;">→</span></a>
+      </div>
+    </section>
+
+    <!-- ===== 11. ФУТЕР ===== -->
+    <footer style="padding:26px 22px 36px; border-top:1px solid #1a2e49;">
+      <div style="font-family:'Oswald',sans-serif; font-weight:700; font-size:16px; text-transform:uppercase; letter-spacing:.04em;"><span style="color:#1fd6ff;">ЯРЫЙ</span> <span style="color:#9d8cff;">БИОХАКИНГ</span></div>
+      <div style="display:flex; gap:10px; margin-top:14px; padding:13px 14px; border:1px solid rgba(245,166,35,.28); border-radius:12px; background:rgba(245,166,35,.05);">
+        <span style="color:#f5a623; font-size:14px; flex:none; line-height:1.5;">⚠</span>
+        <p style="font-size:11.5px; line-height:1.6; color:#9fb0cc; margin:0;">Материалы носят исключительно образовательный и информационный характер, не являются медицинской рекомендацией, рекламой или призывом к применению каких-либо препаратов. Многие из упомянутых веществ рецептурны или ограничены в обороте. Перед любым решением проконсультируйтесь с врачом.</p>
+      </div>
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-top:18px; padding-top:16px; border-top:1px solid #1a2e49;">
+        <a href="https://t.me/zavrayar" style="font-family:'IBM Plex Mono',monospace; font-size:12px; color:#9fb0cc; text-decoration:none;">Поддержка · @zavrayar</a>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#a99bff; border:1px solid rgba(125,108,240,.5); border-radius:6px; padding:3px 7px;">18+</span>
+      </div>
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#4e5a78; margin-top:14px;">© 2026 Ярый Биохаккинг</div>
+    </footer>
+
+  </main>
+
+  <!-- ===== STICKY MOBILE CTA ===== -->
+  <div style="position:fixed; left:50%; bottom:0; transform:translateX(-50%); width:100%; max-width:460px; padding:12px 16px calc(12px + env(safe-area-inset-bottom)); background:linear-gradient(180deg, rgba(5,9,26,.4), rgba(5,9,26,.93) 45%); backdrop-filter:blur(10px); border-top:1px solid rgba(31,214,255,.18); z-index:50;">
+    <a class="btn3d glow" href="https://t.me/Benzoate_bot?start=subscribe" style="display:flex; align-items:center; justify-content:center; gap:9px; height:52px; border-radius:13px; text-decoration:none; font-weight:700; font-size:16px; color:#031018; background:linear-gradient(135deg,#1fd6ff,#7d6cf0); box-shadow:0 0 24px rgba(31,214,255,.55), inset 0 1px 0 rgba(255,255,255,.35);">Открыть в Telegram <span style="font-size:18px;">→</span></a>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:460,&quot;height&quot;:900}}">
+class Component extends DCLogic {
+  componentDidMount() {
+    const setup = () => {
+      const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+      // Scroll-reveal via rAF polling (scroll events don't bubble to window in this host).
+      if (!reduce) {
+        const targets = Array.from(document.querySelectorAll('main > section, main > footer'))
+          .filter((el, i) => i > 0);
+        targets.forEach((el) => el.setAttribute('data-reveal', ''));
+        let pending = targets.slice();
+        const start = performance.now();
+        const tick = (now) => {
+          const vh = window.innerHeight;
+          pending = pending.filter((el) => {
+            const r = el.getBoundingClientRect();
+            if (r.top < vh * 0.85) { el.classList.add('is-in'); return false; }
+            return true;
+          });
+          if (now - start > 9000) { pending.forEach((el) => el.classList.add('is-in')); pending = []; }
+          if (pending.length) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      }
+      // Dynamic cursor-follow lighting
+      const light = document.querySelector('[data-cursor-light]');
+      if (light && !reduce) {
+        let raf = null, tx = 0, ty = 0;
+        const apply = () => { light.style.left = tx + 'px'; light.style.top = ty + 'px'; light.style.opacity = '1'; raf = null; };
+        const onMove = (e) => { tx = e.clientX; ty = e.clientY; if (!raf) raf = requestAnimationFrame(apply); };
+        window.addEventListener('pointermove', onMove, { passive: true });
+        window.addEventListener('pointerleave', () => { light.style.opacity = '0'; }, { passive: true });
+      }
+      // Ensure the muted hero cinemagraph autoplays
+      const v = document.querySelector('video');
+      if (v) { v.muted = true; const p = v.play(); if (p && p.catch) p.catch(() => {}); }
+    };
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      setTimeout(setup, 0);
+    } else {
+      window.addEventListener('DOMContentLoaded', setup);
+    }
+  }
+}
+</script>
+</body>
+</html>
