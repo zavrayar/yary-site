@@ -378,5 +378,11 @@ class Component extends DCLogic {
   }
 }
 </script>
+<!-- video-loop-fix -->
+<script>
+(function(){function fix(){document.querySelectorAll("video").forEach(function(v){v.loop=true;});}
+if(document.readyState!=="loading"){setTimeout(fix,500);}else{document.addEventListener("DOMContentLoaded",function(){setTimeout(fix,500);});}
+setTimeout(fix,1500);setTimeout(fix,3000);})();
+</script>
 </body>
 </html>
