@@ -1,0 +1,2485 @@
+[
+  {
+    "id": 1,
+    "topic": "ГЗТ",
+    "section": "Протоколы и введение",
+    "tags": [
+      "ГЗТ",
+      "Протоколы и введение"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 2,
+    "topic": "ГЗТ",
+    "section": "ХГЧ и гонадотропины",
+    "tags": [
+      "ГЗТ",
+      "ХГЧ и гонадотропины"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 3,
+    "topic": "ГЗТ",
+    "section": "ГСПГ и свободный тестостерон",
+    "tags": [
+      "ГЗТ",
+      "ГСПГ и свободный тестостерон"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 4,
+    "topic": "ГЗТ",
+    "section": "Нандролон (Дека) в ГЗТ",
+    "tags": [
+      "ГЗТ",
+      "Нандролон (Дека) в ГЗТ"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 5,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Первый курс",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Первый курс"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 6,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Тестостерон: эфиры и дозировки",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Тестостерон: эфиры и дозировки"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 7,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "ПКТ (послекурсовая терапия)",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "ПКТ (послекурсовая терапия)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 8,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Гематокрит на курсе",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Гематокрит на курсе"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 9,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Рынок и качество фармы",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Рынок и качество фармы"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 10,
+    "topic": "Гормоны",
+    "section": "Тестостерон: нормы и причины снижения",
+    "tags": [
+      "Гормоны",
+      "Тестостерон: нормы и причины снижения"
+    ],
+    "tier": 0,
+    "tier_name": "Бесплатный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 11,
+    "topic": "Гормоны",
+    "section": "Эстрадиол и ароматизация",
+    "tags": [
+      "Гормоны",
+      "Эстрадиол и ароматизация"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 12,
+    "topic": "Гормоны",
+    "section": "Кортизол и стресс",
+    "tags": [
+      "Гормоны",
+      "Кортизол и стресс"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 13,
+    "topic": "GLP-1 агонисты",
+    "section": "Семаглутид",
+    "tags": [
+      "GLP-1 агонисты",
+      "Семаглутид"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 14,
+    "topic": "GLP-1 агонисты",
+    "section": "Тирзепатид",
+    "tags": [
+      "GLP-1 агонисты",
+      "Тирзепатид"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 15,
+    "topic": "Ноотропы",
+    "section": "Милдронат и Мексидол",
+    "tags": [
+      "Ноотропы",
+      "Милдронат и Мексидол"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 16,
+    "topic": "Ноотропы",
+    "section": "Фенибут",
+    "tags": [
+      "Ноотропы",
+      "Фенибут"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 17,
+    "topic": "Ноотропы",
+    "section": "Церебролизин и Кортексин",
+    "tags": [
+      "Ноотропы",
+      "Церебролизин и Кортексин"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 18,
+    "topic": "Психофармакология",
+    "section": "Антидепрессанты",
+    "tags": [
+      "Психофармакология",
+      "Антидепрессанты"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 19,
+    "topic": "Психофармакология",
+    "section": "Нейромедиаторы: дофамин и либидо",
+    "tags": [
+      "Психофармакология",
+      "Нейромедиаторы: дофамин и либидо"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 20,
+    "topic": "Психофармакология",
+    "section": "Тревога и навязчивые мысли",
+    "tags": [
+      "Психофармакология",
+      "Тревога и навязчивые мысли"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 21,
+    "topic": "Сон",
+    "section": "Мелатонин",
+    "tags": [
+      "Сон",
+      "Мелатонин"
+    ],
+    "tier": 0,
+    "tier_name": "Бесплатный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 22,
+    "topic": "Сон",
+    "section": "Нарушения сна и температура",
+    "tags": [
+      "Сон",
+      "Нарушения сна и температура"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 23,
+    "topic": "Адаптогены",
+    "section": "Классические адаптогены",
+    "tags": [
+      "Адаптогены",
+      "Классические адаптогены"
+    ],
+    "tier": 0,
+    "tier_name": "Бесплатный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 24,
+    "topic": "Адаптогены",
+    "section": "Ежовик гребенчатый",
+    "tags": [
+      "Адаптогены",
+      "Ежовик гребенчатый"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 25,
+    "topic": "Витамины и минералы",
+    "section": "Витамин D",
+    "tags": [
+      "Витамины и минералы",
+      "Витамин D"
+    ],
+    "tier": 0,
+    "tier_name": "Бесплатный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 26,
+    "topic": "Витамины и минералы",
+    "section": "Цинк, железо, медь",
+    "tags": [
+      "Витамины и минералы",
+      "Цинк, железо, медь"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 27,
+    "topic": "Сердечно-сосудистая система",
+    "section": "Холестерин и статины",
+    "tags": [
+      "Сердечно-сосудистая система",
+      "Холестерин и статины"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 28,
+    "topic": "Сердечно-сосудистая система",
+    "section": "Артериальное давление",
+    "tags": [
+      "Сердечно-сосудистая система",
+      "Артериальное давление"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 29,
+    "topic": "Простатит и урология",
+    "section": "Хронический простатит",
+    "tags": [
+      "Простатит и урология",
+      "Хронический простатит"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 30,
+    "topic": "Тренинг",
+    "section": "Основные принципы",
+    "tags": [
+      "Тренинг",
+      "Основные принципы"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 31,
+    "topic": "Тренинг",
+    "section": "Травмы и восстановление",
+    "tags": [
+      "Тренинг",
+      "Травмы и восстановление"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 32,
+    "topic": "Кожа",
+    "section": "Акне и постакне",
+    "tags": [
+      "Кожа",
+      "Акне и постакне"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 33,
+    "topic": "Пептиды и гормон роста",
+    "section": "Гормон роста (ГР)",
+    "tags": [
+      "Пептиды и гормон роста",
+      "Гормон роста (ГР)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 34,
+    "topic": "Стимуляторы",
+    "section": "Кофеин и жиросжигатели",
+    "tags": [
+      "Стимуляторы",
+      "Кофеин и жиросжигатели"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 35,
+    "topic": "Иммунитет и здоровье",
+    "section": "Поддержка иммунитета",
+    "tags": [
+      "Иммунитет и здоровье",
+      "Поддержка иммунитета"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 36,
+    "topic": "Медиазона",
+    "section": "Андрей Смаев",
+    "tags": [
+      "Медиазона",
+      "Андрей Смаев"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 37,
+    "topic": "Медиазона",
+    "section": "Андрей Смаев",
+    "tags": [
+      "Медиазона",
+      "Андрей Смаев"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 38,
+    "topic": "Медиазона",
+    "section": "Андрей Смаев",
+    "tags": [
+      "Медиазона",
+      "Андрей Смаев"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 39,
+    "topic": "Медиазона",
+    "section": "Вадим Каспаров",
+    "tags": [
+      "Медиазона",
+      "Вадим Каспаров"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 40,
+    "topic": "Медиазона",
+    "section": "Вадим Каспаров",
+    "tags": [
+      "Медиазона",
+      "Вадим Каспаров"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 41,
+    "topic": "Медиазона",
+    "section": "Вадим Каспаров",
+    "tags": [
+      "Медиазона",
+      "Вадим Каспаров"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 42,
+    "topic": "Медиазона",
+    "section": "Антон Южаков",
+    "tags": [
+      "Медиазона",
+      "Антон Южаков"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 43,
+    "topic": "Медиазона",
+    "section": "Варгунин",
+    "tags": [
+      "Медиазона",
+      "Варгунин"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 44,
+    "topic": "Медиазона",
+    "section": "Варгунин",
+    "tags": [
+      "Медиазона",
+      "Варгунин"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 45,
+    "topic": "Медиазона",
+    "section": "Хайд",
+    "tags": [
+      "Медиазона",
+      "Хайд"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 46,
+    "topic": "Медиазона",
+    "section": "Майк Ментцер",
+    "tags": [
+      "Медиазона",
+      "Майк Ментцер"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 47,
+    "topic": "Медиазона",
+    "section": "Головинский",
+    "tags": [
+      "Медиазона",
+      "Головинский"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 48,
+    "topic": "Медиазона",
+    "section": "Мавроди",
+    "tags": [
+      "Медиазона",
+      "Мавроди"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 52,
+    "topic": "Пептиды и гормон роста",
+    "section": "Пептиды: BPC-157, TB-500, PT-141",
+    "tags": [
+      "Пептиды и гормон роста",
+      "Пептиды: BPC-157, TB-500, PT-141"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 59,
+    "topic": "Фармакология",
+    "section": "Инсулин",
+    "tags": [
+      "Фармакология",
+      "Инсулин"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 60,
+    "topic": "Фармакология",
+    "section": "Изотретиноин (Акнекутан)",
+    "tags": [
+      "Фармакология",
+      "Изотретиноин (Акнекутан)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 61,
+    "topic": "Фармакология",
+    "section": "Финастерид и облысение",
+    "tags": [
+      "Фармакология",
+      "Финастерид и облысение"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 62,
+    "topic": "Фармакология",
+    "section": "Статины на курсе",
+    "tags": [
+      "Фармакология",
+      "Статины на курсе"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 63,
+    "topic": "Фармакология",
+    "section": "Донорство и гематокрит",
+    "tags": [
+      "Фармакология",
+      "Донорство и гематокрит"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 76,
+    "topic": "Питание и диеты",
+    "section": "IIFYM и подсчёт калорий",
+    "tags": [
+      "Питание и диеты",
+      "IIFYM и подсчёт калорий"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 77,
+    "topic": "Питание и диеты",
+    "section": "Сушка и жиросжигание",
+    "tags": [
+      "Питание и диеты",
+      "Сушка и жиросжигание"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 78,
+    "topic": "Питание и диеты",
+    "section": "Добавки: HMB, NMN, NAD",
+    "tags": [
+      "Питание и диеты",
+      "Добавки: HMB, NMN, NAD"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 95,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Нандролон: ФП и Деканоат",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Нандролон: ФП и Деканоат"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 104,
+    "topic": "Медиазона",
+    "section": "Любер",
+    "tags": [
+      "Медиазона",
+      "Любер"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 105,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Тренболон",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Тренболон"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 106,
+    "topic": "Сексуальное здоровье",
+    "section": "Ингибиторы ФДЭ-5",
+    "tags": [
+      "Сексуальное здоровье",
+      "Ингибиторы ФДЭ-5"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 108,
+    "topic": "ЖКТ и пищеварение",
+    "section": "Желчный пузырь и застой желчи",
+    "tags": [
+      "ЖКТ и пищеварение",
+      "Желчный пузырь и застой желчи"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 109,
+    "topic": "ЖКТ и пищеварение",
+    "section": "Микробиота и кишечник",
+    "tags": [
+      "ЖКТ и пищеварение",
+      "Микробиота и кишечник"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 110,
+    "topic": "Фармакология",
+    "section": "Митохондрии и NAD+",
+    "tags": [
+      "Фармакология",
+      "Митохондрии и NAD+"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 114,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Болденон (Эквипоз)",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Болденон (Эквипоз)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 115,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Оксандролон (Анавар)",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Оксандролон (Анавар)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 116,
+    "topic": "Фармакология",
+    "section": "Метиленовый синий",
+    "tags": [
+      "Фармакология",
+      "Метиленовый синий"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 117,
+    "topic": "Медиазона",
+    "section": "Смаев vs Гусев (ИФР-катастрофа)",
+    "tags": [
+      "Медиазона",
+      "Смаев vs Гусев (ИФР-катастрофа)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 119,
+    "topic": "Гормоны",
+    "section": "ДГЭА и прегненолон",
+    "tags": [
+      "Гормоны",
+      "ДГЭА и прегненолон"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 121,
+    "topic": "Медиазона",
+    "section": "Ярослав Завражнев (автор)",
+    "tags": [
+      "Медиазона",
+      "Ярослав Завражнев (автор)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 127,
+    "topic": "GLP-1 агонисты",
+    "section": "Семаглутид (Оземпик)",
+    "tags": [
+      "GLP-1 агонисты",
+      "Семаглутид (Оземпик)"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 129,
+    "topic": "GLP-1 агонисты",
+    "section": "Ретатрутид и будущие препараты",
+    "tags": [
+      "GLP-1 агонисты",
+      "Ретатрутид и будущие препараты"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 130,
+    "topic": "Пептиды и гормон роста",
+    "section": "Гормон роста (ГР)",
+    "tags": [
+      "Пептиды и гормон роста",
+      "Гормон роста (ГР)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 131,
+    "topic": "Пептиды и гормон роста",
+    "section": "BPC-157 и TB-500",
+    "tags": [
+      "Пептиды и гормон роста",
+      "BPC-157 и TB-500"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 132,
+    "topic": "Пептиды и гормон роста",
+    "section": "PT-141 (Брамеланотид)",
+    "tags": [
+      "Пептиды и гормон роста",
+      "PT-141 (Брамеланотид)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 133,
+    "topic": "Пептиды и гормон роста",
+    "section": "LL-37 (антимикробный пептид)",
+    "tags": [
+      "Пептиды и гормон роста",
+      "LL-37 (антимикробный пептид)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 134,
+    "topic": "Стимуляторы",
+    "section": "Кофеин и кофеин бензоат",
+    "tags": [
+      "Стимуляторы",
+      "Кофеин и кофеин бензоат"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 135,
+    "topic": "Стимуляторы",
+    "section": "Йохимбин",
+    "tags": [
+      "Стимуляторы",
+      "Йохимбин"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 136,
+    "topic": "Стимуляторы",
+    "section": "Эфедрин (Бронхолитин)",
+    "tags": [
+      "Стимуляторы",
+      "Эфедрин (Бронхолитин)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 137,
+    "topic": "Стимуляторы",
+    "section": "Модафинил и армодафинил",
+    "tags": [
+      "Стимуляторы",
+      "Модафинил и армодафинил"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 138,
+    "topic": "Стимуляторы",
+    "section": "Сибутрамин и жиросжигатели",
+    "tags": [
+      "Стимуляторы",
+      "Сибутрамин и жиросжигатели"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 139,
+    "topic": "Ноотропы",
+    "section": "Фенибут",
+    "tags": [
+      "Ноотропы",
+      "Фенибут"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 140,
+    "topic": "Ноотропы",
+    "section": "Бромантан",
+    "tags": [
+      "Ноотропы",
+      "Бромантан"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 141,
+    "topic": "Ноотропы",
+    "section": "Семакс и Селанк",
+    "tags": [
+      "Ноотропы",
+      "Семакс и Селанк"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 142,
+    "topic": "Ноотропы",
+    "section": "Цитиколин (CDP-холин)",
+    "tags": [
+      "Ноотропы",
+      "Цитиколин (CDP-холин)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 143,
+    "topic": "ГЗТ",
+    "section": "Протоколы: дозировки и эфиры",
+    "tags": [
+      "ГЗТ",
+      "Протоколы: дозировки и эфиры"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 144,
+    "topic": "ГЗТ",
+    "section": "ГСПГ: управление и снижение",
+    "tags": [
+      "ГЗТ",
+      "ГСПГ: управление и снижение"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 145,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Первый курс: стандарт",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Первый курс: стандарт"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 146,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Управление эстрадиолом",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Управление эстрадиолом"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 147,
+    "topic": "Психофармакология",
+    "section": "СДВГ и атомоксетин",
+    "tags": [
+      "Психофармакология",
+      "СДВГ и атомоксетин"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 148,
+    "topic": "Психофармакология",
+    "section": "Тревога: препараты и подходы",
+    "tags": [
+      "Психофармакология",
+      "Тревога: препараты и подходы"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 149,
+    "topic": "Психофармакология",
+    "section": "Антидепрессанты на курсе ААС",
+    "tags": [
+      "Психофармакология",
+      "Антидепрессанты на курсе ААС"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 150,
+    "topic": "Сон",
+    "section": "Базовый стек для сна",
+    "tags": [
+      "Сон",
+      "Базовый стек для сна"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 151,
+    "topic": "Гормоны",
+    "section": "Эстрадиол: нормы и признаки",
+    "tags": [
+      "Гормоны",
+      "Эстрадиол: нормы и признаки"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 152,
+    "topic": "Гормоны",
+    "section": "Кортизол: диагностика",
+    "tags": [
+      "Гормоны",
+      "Кортизол: диагностика"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 155,
+    "topic": "Кожа",
+    "section": "Акне: протоколы лечения",
+    "tags": [
+      "Кожа",
+      "Акне: протоколы лечения"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 156,
+    "topic": "ЖКТ и пищеварение",
+    "section": "Застой желчи и тревога",
+    "tags": [
+      "ЖКТ и пищеварение",
+      "Застой желчи и тревога"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 157,
+    "topic": "Фармакология",
+    "section": "Инсулин: риски и применение",
+    "tags": [
+      "Фармакология",
+      "Инсулин: риски и применение"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 158,
+    "topic": "Фармакология",
+    "section": "Щитовидная железа: осторожно",
+    "tags": [
+      "Фармакология",
+      "Щитовидная железа: осторожно"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 159,
+    "topic": "Фармакология",
+    "section": "Метформин",
+    "tags": [
+      "Фармакология",
+      "Метформин"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 160,
+    "topic": "Тренинг",
+    "section": "Принципы тренировок с фармой",
+    "tags": [
+      "Тренинг",
+      "Принципы тренировок с фармой"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 161,
+    "topic": "Тренинг",
+    "section": "Восстановление после травм",
+    "tags": [
+      "Тренинг",
+      "Восстановление после травм"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 162,
+    "topic": "Схемы/Дозировки/Рецепты",
+    "section": "GLP-1 агонисты: дозировки",
+    "tags": [
+      "Схемы/Дозировки/Рецепты",
+      "GLP-1 агонисты: дозировки"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 163,
+    "topic": "Схемы/Дозировки/Рецепты",
+    "section": "Гормон роста: дозировки и схемы",
+    "tags": [
+      "Схемы/Дозировки/Рецепты",
+      "Гормон роста: дозировки и схемы"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 164,
+    "topic": "Схемы/Дозировки/Рецепты",
+    "section": "Тестостерон: дозировки",
+    "tags": [
+      "Схемы/Дозировки/Рецепты",
+      "Тестостерон: дозировки"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 165,
+    "topic": "Схемы/Дозировки/Рецепты",
+    "section": "Нандролон: дозировки",
+    "tags": [
+      "Схемы/Дозировки/Рецепты",
+      "Нандролон: дозировки"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 166,
+    "topic": "Схемы/Дозировки/Рецепты",
+    "section": "Фенибут: дозировки",
+    "tags": [
+      "Схемы/Дозировки/Рецепты",
+      "Фенибут: дозировки"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 167,
+    "topic": "Схемы/Дозировки/Рецепты",
+    "section": "Стимулы: стеки и дозировки",
+    "tags": [
+      "Схемы/Дозировки/Рецепты",
+      "Стимулы: стеки и дозировки"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 168,
+    "topic": "Схемы/Дозировки/Рецепты",
+    "section": "Сон: стеки и дозировки",
+    "tags": [
+      "Схемы/Дозировки/Рецепты",
+      "Сон: стеки и дозировки"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 169,
+    "topic": "Схемы/Дозировки/Рецепты",
+    "section": "Антиэстрогены: дозировки",
+    "tags": [
+      "Схемы/Дозировки/Рецепты",
+      "Антиэстрогены: дозировки"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 170,
+    "topic": "Схемы/Дозировки/Рецепты",
+    "section": "Статины и холестерин",
+    "tags": [
+      "Схемы/Дозировки/Рецепты",
+      "Статины и холестерин"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 171,
+    "topic": "Стимуляторы",
+    "section": "Никотин",
+    "tags": [
+      "Стимуляторы",
+      "Никотин"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 172,
+    "topic": "Адаптогены",
+    "section": "Классические адаптогены",
+    "tags": [
+      "Адаптогены",
+      "Классические адаптогены"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 173,
+    "topic": "Адаптогены",
+    "section": "Ежовик гребенчатый",
+    "tags": [
+      "Адаптогены",
+      "Ежовик гребенчатый"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 175,
+    "topic": "ГЗТ",
+    "section": "ХГЧ: применение на ГЗТ",
+    "tags": [
+      "ГЗТ",
+      "ХГЧ: применение на ГЗТ"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 176,
+    "topic": "Простатит и урология",
+    "section": "Хронический простатит",
+    "tags": [
+      "Простатит и урология",
+      "Хронический простатит"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 177,
+    "topic": "Сексуальное здоровье",
+    "section": "Ингибиторы ФДЭ-5",
+    "tags": [
+      "Сексуальное здоровье",
+      "Ингибиторы ФДЭ-5"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 178,
+    "topic": "Сексуальное здоровье",
+    "section": "Либидо: причины и решения",
+    "tags": [
+      "Сексуальное здоровье",
+      "Либидо: причины и решения"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 179,
+    "topic": "Питание и диеты",
+    "section": "Макронутриенты на сушке",
+    "tags": [
+      "Питание и диеты",
+      "Макронутриенты на сушке"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 180,
+    "topic": "Питание и диеты",
+    "section": "Добавки: берберин и альфа-липоевая",
+    "tags": [
+      "Питание и диеты",
+      "Добавки: берберин и альфа-липоевая"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 181,
+    "topic": "Иммунитет и здоровье",
+    "section": "Протоколы при ОРВИ",
+    "tags": [
+      "Иммунитет и здоровье",
+      "Протоколы при ОРВИ"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 182,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "ПКТ: схема и сроки",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "ПКТ: схема и сроки"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 183,
+    "topic": "Схемы/Дозировки/Рецепты",
+    "section": "ПКТ: полная схема",
+    "tags": [
+      "Схемы/Дозировки/Рецепты",
+      "ПКТ: полная схема"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 185,
+    "topic": "Витамины и минералы",
+    "section": "Витамин D",
+    "tags": [
+      "Витамины и минералы",
+      "Витамин D"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 186,
+    "topic": "Витамины и минералы",
+    "section": "Цинк, железо, медь",
+    "tags": [
+      "Витамины и минералы",
+      "Цинк, железо, медь"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 187,
+    "topic": "Фармакология",
+    "section": "Метиленовый синий и митохондрии",
+    "tags": [
+      "Фармакология",
+      "Метиленовый синий и митохондрии"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 188,
+    "topic": "Схемы/Дозировки/Рецепты",
+    "section": "Предтрен: стеки и протоколы",
+    "tags": [
+      "Схемы/Дозировки/Рецепты",
+      "Предтрен: стеки и протоколы"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 189,
+    "topic": "Ноотропы",
+    "section": "Церебролизин и Кортексин",
+    "tags": [
+      "Ноотропы",
+      "Церебролизин и Кортексин"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 190,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Стероидный минимализм",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Стероидный минимализм"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 191,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Минимальная рабочая доза",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Минимальная рабочая доза"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 192,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Мастерон-поддержка между курсами",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Мастерон-поддержка между курсами"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 193,
+    "topic": "Сердечно-сосудистая система",
+    "section": "Статины на курсе ААС",
+    "tags": [
+      "Сердечно-сосудистая система",
+      "Статины на курсе ААС"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 194,
+    "topic": "Адаптогены",
+    "section": "Ежовик + ашваганда (связка)",
+    "tags": [
+      "Адаптогены",
+      "Ежовик + ашваганда (связка)"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 195,
+    "topic": "Адаптогены",
+    "section": "Ежовик + ашваганда: схема",
+    "tags": [
+      "Адаптогены",
+      "Ежовик + ашваганда: схема"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 196,
+    "topic": "ГЗТ",
+    "section": "Микродозы кломифена как «натуральная ГЗТ»",
+    "tags": [
+      "ГЗТ",
+      "Микродозы кломифена как «натуральная ГЗТ»"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 197,
+    "topic": "Психофармакология",
+    "section": "Мухомор и иботеновая кислота",
+    "tags": [
+      "Психофармакология",
+      "Мухомор и иботеновая кислота"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 198,
+    "topic": "Пептиды и гормон роста",
+    "section": "Гормон роста и риски онкологии",
+    "tags": [
+      "Пептиды и гормон роста",
+      "Гормон роста и риски онкологии"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 199,
+    "topic": "Пептиды и гормон роста",
+    "section": "Псевдонатуральный тренинг",
+    "tags": [
+      "Пептиды и гормон роста",
+      "Псевдонатуральный тренинг"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 200,
+    "topic": "Пептиды и гормон роста",
+    "section": "Пикамилон + ибутаморен",
+    "tags": [
+      "Пептиды и гормон роста",
+      "Пикамилон + ибутаморен"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 201,
+    "topic": "САРМы",
+    "section": "Типология и базовая механика",
+    "tags": [
+      "САРМы",
+      "Типология и базовая механика"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 202,
+    "topic": "Питание и диеты",
+    "section": "Креатин: задержка воды и заливка",
+    "tags": [
+      "Питание и диеты",
+      "Креатин: задержка воды и заливка"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 203,
+    "topic": "Гормоны",
+    "section": "ГСПГ (глобулин, связывающий половые гормоны)",
+    "tags": [
+      "Гормоны",
+      "ГСПГ (глобулин, связывающий половые гормоны)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 204,
+    "topic": "Психофармакология",
+    "section": "Антидепрессанты и либидо",
+    "tags": [
+      "Психофармакология",
+      "Антидепрессанты и либидо"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 205,
+    "topic": "Стимуляторы",
+    "section": "Лёгкие разрешённые стимы: обзор",
+    "tags": [
+      "Стимуляторы",
+      "Лёгкие разрешённые стимы: обзор"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 206,
+    "topic": "Стимуляторы",
+    "section": "Никотин как замена эфедрина в ЭКА",
+    "tags": [
+      "Стимуляторы",
+      "Никотин как замена эфедрина в ЭКА"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 207,
+    "topic": "ГЗТ",
+    "section": "Протоколы и введение",
+    "tags": [
+      "ГЗТ",
+      "Протоколы и введение"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 208,
+    "topic": "ГЗТ",
+    "section": "Протоколы и введение",
+    "tags": [
+      "ГЗТ",
+      "Протоколы и введение"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 209,
+    "topic": "ГЗТ",
+    "section": "ГСПГ и свободный тестостерон",
+    "tags": [
+      "ГЗТ",
+      "ГСПГ и свободный тестостерон"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 210,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Нандролон: ФП и Деканоат",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Нандролон: ФП и Деканоат"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 211,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Нандролон: ФП и Деканоат",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Нандролон: ФП и Деканоат"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 212,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "ПКТ (послекурсовая терапия)",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "ПКТ (послекурсовая терапия)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 213,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "ПКТ (послекурсовая терапия)",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "ПКТ (послекурсовая терапия)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 214,
+    "topic": "Питание и диеты",
+    "section": "Гидратация",
+    "tags": [
+      "Питание и диеты",
+      "Гидратация"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 215,
+    "topic": "Фармакология",
+    "section": "Дженерики и оригиналы",
+    "tags": [
+      "Фармакология",
+      "Дженерики и оригиналы"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 216,
+    "topic": "ГЗТ",
+    "section": "Протоколы и введение",
+    "tags": [
+      "ГЗТ",
+      "Протоколы и введение"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 217,
+    "topic": "ГЗТ",
+    "section": "Протоколы и введение",
+    "tags": [
+      "ГЗТ",
+      "Протоколы и введение"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 218,
+    "topic": "ГЗТ",
+    "section": "Протоколы и введение",
+    "tags": [
+      "ГЗТ",
+      "Протоколы и введение"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 219,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "ПКТ (послекурсовая терапия)",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "ПКТ (послекурсовая терапия)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 220,
+    "topic": "Стимуляторы",
+    "section": "Кофеин и жиросжигатели",
+    "tags": [
+      "Стимуляторы",
+      "Кофеин и жиросжигатели"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 221,
+    "topic": "Психофармакология",
+    "section": "Антидепрессанты",
+    "tags": [
+      "Психофармакология",
+      "Антидепрессанты"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 222,
+    "topic": "Психофармакология",
+    "section": "Тревога и навязчивые мысли",
+    "tags": [
+      "Психофармакология",
+      "Тревога и навязчивые мысли"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 223,
+    "topic": "Психофармакология",
+    "section": "Тревога и навязчивые мысли",
+    "tags": [
+      "Психофармакология",
+      "Тревога и навязчивые мысли"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 224,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Тренболон",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Тренболон"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 225,
+    "topic": "Сон",
+    "section": "Нарушения сна и температура",
+    "tags": [
+      "Сон",
+      "Нарушения сна и температура"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 226,
+    "topic": "Сердечно-сосудистая система",
+    "section": "Артериальное давление",
+    "tags": [
+      "Сердечно-сосудистая система",
+      "Артериальное давление"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 227,
+    "topic": "Пептиды и гормон роста",
+    "section": "Пептиды: BPC-157, TB-500, PT-141",
+    "tags": [
+      "Пептиды и гормон роста",
+      "Пептиды: BPC-157, TB-500, PT-141"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 228,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Рынок и качество фармы",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Рынок и качество фармы"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 229,
+    "topic": "Витамины и минералы",
+    "section": "B-витамины",
+    "tags": [
+      "Витамины и минералы",
+      "B-витамины"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 230,
+    "topic": "Тренинг",
+    "section": "Икры",
+    "tags": [
+      "Тренинг",
+      "Икры"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 231,
+    "topic": "Стимуляторы",
+    "section": "Кофеин и жиросжигатели",
+    "tags": [
+      "Стимуляторы",
+      "Кофеин и жиросжигатели"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 232,
+    "topic": "Стимуляторы",
+    "section": "Кофеин и жиросжигатели",
+    "tags": [
+      "Стимуляторы",
+      "Кофеин и жиросжигатели"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 233,
+    "topic": "Пептиды и гормон роста",
+    "section": "Ибутаморен и аналоги MK-677",
+    "tags": [
+      "Пептиды и гормон роста",
+      "Ибутаморен и аналоги MK-677"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 234,
+    "topic": "Пептиды и гормон роста",
+    "section": "Ибутаморен и аналоги MK-677",
+    "tags": [
+      "Пептиды и гормон роста",
+      "Ибутаморен и аналоги MK-677"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 235,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Первый курс",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Первый курс"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 236,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "ПКТ (послекурсовая терапия)",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "ПКТ (послекурсовая терапия)"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 237,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Техника инъекций",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Техника инъекций"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 238,
+    "topic": "ААС (Анаболические стероиды)",
+    "section": "Техника инъекций",
+    "tags": [
+      "ААС (Анаболические стероиды)",
+      "Техника инъекций"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 239,
+    "topic": "Гормоны",
+    "section": "Эстрадиол и ароматизация",
+    "tags": [
+      "Гормоны",
+      "Эстрадиол и ароматизация"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 240,
+    "topic": "ГЗТ",
+    "section": "ХГЧ и гонадотропины",
+    "tags": [
+      "ГЗТ",
+      "ХГЧ и гонадотропины"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 241,
+    "topic": "ГЗТ",
+    "section": "ХГЧ и гонадотропины",
+    "tags": [
+      "ГЗТ",
+      "ХГЧ и гонадотропины"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 242,
+    "topic": "Психофармакология",
+    "section": "Серотонин и взаимодействия",
+    "tags": [
+      "Психофармакология",
+      "Серотонин и взаимодействия"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 243,
+    "topic": "Психофармакология",
+    "section": "Дофаминовая система и зависимости",
+    "tags": [
+      "Психофармакология",
+      "Дофаминовая система и зависимости"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 244,
+    "topic": "Психофармакология",
+    "section": "Дофаминовая система и зависимости",
+    "tags": [
+      "Психофармакология",
+      "Дофаминовая система и зависимости"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 245,
+    "topic": "Психофармакология",
+    "section": "Антидепрессанты",
+    "tags": [
+      "Психофармакология",
+      "Антидепрессанты"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 246,
+    "topic": "Психофармакология",
+    "section": "Антидепрессанты",
+    "tags": [
+      "Психофармакология",
+      "Антидепрессанты"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 247,
+    "topic": "Питание и диеты",
+    "section": "Протеины и аминокислоты",
+    "tags": [
+      "Питание и диеты",
+      "Протеины и аминокислоты"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 248,
+    "topic": "Питание и диеты",
+    "section": "Протеины и аминокислоты",
+    "tags": [
+      "Питание и диеты",
+      "Протеины и аминокислоты"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 249,
+    "topic": "Питание и диеты",
+    "section": "Качество БАДов и сырья",
+    "tags": [
+      "Питание и диеты",
+      "Качество БАДов и сырья"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 250,
+    "topic": "Фармакология",
+    "section": "Гепатопротекторы и печень",
+    "tags": [
+      "Фармакология",
+      "Гепатопротекторы и печень"
+    ],
+    "tier": 1,
+    "tier_name": "Базовый",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 251,
+    "topic": "Фармакология",
+    "section": "Гепатопротекторы и печень",
+    "tags": [
+      "Фармакология",
+      "Гепатопротекторы и печень"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  },
+  {
+    "id": 252,
+    "topic": "Ноотропы",
+    "section": "Схемы реабилитации ЦНС",
+    "tags": [
+      "Ноотропы",
+      "Схемы реабилитации ЦНС"
+    ],
+    "tier": 2,
+    "tier_name": "Полный",
+    "locked": "[ полный текст — по подписке ]",
+    "url": "https://t.me/Benzoate_bot?start=knowledge"
+  }
+]
