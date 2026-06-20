@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#05091a"/>
+  <polygon points="16,3 27,9.5 27,22.5 16,29 5,22.5 5,9.5" fill="none" stroke="#7d6cf0" stroke-width="1.5"/>
+  <polygon points="16,6 24.5,11 24.5,21 16,26 7.5,21 7.5,11" fill="#0a1430" stroke="#1fd6ff" stroke-width="1"/>
+  <text x="16" y="21" text-anchor="middle" font-family="monospace" font-weight="700" font-size="11" fill="#1fd6ff">Na</text>
+</svg>
